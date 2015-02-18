@@ -23,8 +23,9 @@ if [ -e ~/.vim ]; then
     mv ~/.vim ~/.vim.bak-1
 fi
 if [ -e ~/.vimrc ]; then
-    mv ~/.vimrc ~/vimrc.bak-1
+    mv ~/.vimrc ~/.vimrc.bak-1
 fi
 
+cd ~ 
 ln -s $current ~/.vim
 ln -s $current/vimrc ~/.vimrc
