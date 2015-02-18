@@ -12,17 +12,17 @@ call pathogen#helptags()
 "## vim-powerLine
 " let g:Powerline_symbols = 'fancy'
 
-set nocompatible   " Disable vi-compatibility
-set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show Unicode glyphs
+set nocompatible        " Disable vi-compatibility
+set laststatus=2        " Always show the statusline
+set encoding=utf-8      " Necessary to show Unicode glyphs
 
 
 " ## vim settings
-set tabstop=4		" Set width of a TAB to 4
-set shiftwidth=4	" Indents will have a width of 4
-set softtabstop=4	" Sets the number of column for a TAB
-set expandtab		" Expand TABs to spaces
-set nu              " show line number
+set tabstop=4           " Set width of a TAB to 4
+set shiftwidth=4        " Indents will have a width of 4
+set softtabstop=4       " Sets the number of column for a TAB
+set expandtab           " Expand TABs to spaces
+set nu                  " show line number
 
 " Open NERDTree
 " autocmd VimEnter * NERDTree
