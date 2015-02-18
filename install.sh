@@ -1,5 +1,6 @@
 #!/bin/sh
 
+current=`pwd`
 bundles=(
     "https://github.com/tpope/vim-pathogen.git"
     "https://github.com/Lokaltog/vim-powerline.git"
@@ -16,3 +17,14 @@ for i in "${bundles[@]}"
 do
     echo "git clone $i"
 done
+
+
+if [ -e ~/.vim ]; then
+    mv ~/.vim ~/.vim.bak-1
+fi
+if [ -e ~/.vimrc ]; then
+    mv ~/.vimrc ~/vimrc.bak-1
+fi
+
+ln -s $current ~/.vim
+ln -s $current/vimrc ~/.vimrc
