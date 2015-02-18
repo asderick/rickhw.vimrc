@@ -10,6 +10,7 @@ bundles=(
     "https://github.com/plasticboy/vim-markdown.git"
     "https://github.com/c9s/colorselector.vim.git"
     "https://github.com/msanders/snipmate.vim.git"
+    "https://github.com/pangloss/vim-javascript.git"
 )
 
 echo "create bundle folder: ${bundle_path}"

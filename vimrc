@@ -9,10 +9,9 @@ call pathogen#infect()
 call pathogen#helptags()
 
 
-"## vim-powerLine
+" ## vim-powerLine
 " let g:Powerline_symbols = 'fancy'
-
-set nocompatible        " Disable vi-compatibility
+"set nocompatible        " Disable vi-compatibility
 set laststatus=2        " Always show the statusline
 set encoding=utf-8      " Necessary to show Unicode glyphs
 
@@ -24,5 +23,13 @@ set softtabstop=4       " Sets the number of column for a TAB
 set expandtab           " Expand TABs to spaces
 set nu                  " show line number
 
-" Open NERDTree
+
+" ## Open NERDTree
 " autocmd VimEnter * NERDTree
+
+
+" ## vim-markdown
+" let g:vim_markdown_math=1
+let g:vim_markdown_frontmatter=1
+" let g:vim_markdown_folding_disabled=1
+
